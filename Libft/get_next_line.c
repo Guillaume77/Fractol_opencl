@@ -6,13 +6,13 @@
 /*   By: gubourge <gubourge@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/30 14:39:26 by gubourge          #+#    #+#             */
-/*   Updated: 2017/04/09 16:42:31 by gubourge         ###   ########.fr       */
+/*   Updated: 2017/11/19 18:29:10 by gubourge         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <unistd.h>
-#include "Libft.h"
+#include "libft.h"
 
 static t_fd			*ft_get_good_list(t_fd **list, int fd)
 {
